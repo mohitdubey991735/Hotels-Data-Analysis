@@ -89,6 +89,8 @@ The dataset consists of multiple interconnected tables containing historical boo
 
 The following visualizations highlight key insights derived from the analysis:
 
+---
+
 ### 📊 Hotel Count per City
 This chart shows the distribution of hotel properties across different cities.
 
@@ -99,23 +101,22 @@ This chart shows the distribution of hotel properties across different cities.
 ### 📅 Occupancy Analysis – June
 This visualization highlights city-wise occupancy performance for the month of June.
 
-![June Occupancy Analysis](img/In%20the%20month%20of%20June%2C%20what%20is%20th.png)
+![June Occupancy Analysis](img/In%20the%20month%20of%20June%2C%20what%20is%20the%20occupancy%20for%20different%20cities.png)
 
 ---
 
 ### 🥧 Revenue Contribution by Booking Platform
 This pie chart shows how different booking platforms contribute to total revenue.
 
-![Revenue by Booking Platform](img/a%20pie%20chart%20of%20revenue%20realized%20p.png)
+![Revenue by Booking Platform](img/a%20pie%20chart%20of%20revenue%20realized%20per%20booking%20platform.png)
 
 ---
 
 ### 📈 Bookings Data Overview
 This chart provides an overview of booking trends from the dataset.
 
-![Bookings Data Overview](img/bookings%20data%20in%20a%20datagram%20p.png)
+![Bookings Data Overview](img/bookings%20data%20in%20a%20datagram.png)
 
----
 
 ## How to Run the Project
 
