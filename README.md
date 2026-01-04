@@ -2,115 +2,116 @@
 
 Revenue • Occupancy • Business Performance Insights
 
-<p align="center"> <img src="https://img.shields.io/badge/Python-Data%20Analysis-blue" /> <img src="https://img.shields.io/badge/Pandas-Data%20Wrangling-green" /> <img src="https://img.shields.io/badge/Jupyter-Notebook-orange" /> <img src="https://img.shields.io/badge/Status-Completed-success" /> </p>
-📌 Project Overview
+👋 Introduction
 
-This project focuses on analyzing hotel revenue, occupancy rates, and overall business performance for AtliQ Hotels using real-world booking data.
+This is an end-to-end data analysis project built using Python to analyze hotel booking data for AtliQ Hotels.
 
-🎯 Goal:
-To generate actionable insights that help management:
+The project simulates a real business problem where management wants to understand:
 
-Improve pricing strategies
+Why revenue is fluctuating
 
-Optimize capacity utilization
+Which cities and room types perform best
 
-Drive revenue growth
+How occupancy changes across time
 
-🧭 Quick Navigation
+🎯 What Problem Does This Project Solve?
 
-🎯 Business Objectives
+Hotel management struggles with:
 
-🛠️ Tools & Technologies
+Inconsistent occupancy rates
 
-📂 Dataset Information
+Uneven revenue across cities
 
-🔍 Project Workflow
+Poor visibility into booking behavior
 
-📊 Key Insights
+📌 This project converts raw booking data into meaningful business insights.
 
-📈 Visualizations
+🧠 What You Will Learn From This Project
 
-🚀 How to Run
+✔ How to clean messy real-world data
+✔ How to calculate occupancy & revenue metrics
+✔ How to merge multiple datasets
+✔ How to answer real business questions using data
+✔ How to present insights visually
 
-⭐ Key Takeaways
-
-🎯 Business Objectives
-
-✔ Analyze occupancy percentage across room categories and cities
-✔ Identify revenue trends by city, hotel, month, and booking platform
-✔ Compare weekday vs weekend performance
-✔ Detect data quality issues (invalid entries, missing values, outliers)
-✔ Enable data-driven decision making for hotel operations
-
-🛠️ Tools & Technologies
+🛠️ Tools & Technologies Used
 Tool	Purpose
-🐍 Python	Core data analysis
-🧮 Pandas	Data cleaning & transformation
-📊 Matplotlib	Visualizations
-📓 Jupyter Notebook	Interactive analysis
-📁 CSV Files	Raw datasets
-📂 Dataset Information
+Python	Core programming
+Pandas	Data cleaning & transformation
+Matplotlib	Data visualization
+Jupyter Notebook	Interactive analysis
+CSV Files	Raw datasets
+📂 Dataset Overview (Simple Explanation)
 
-The project uses five structured datasets:
+This project uses 5 datasets:
 
-Dataset	Description
+File Name	What It Contains
 dim_date.csv	Date, month, weekday/weekend info
-dim_hotels.csv	Hotel properties & city mapping
-dim_rooms.csv	Room categories & room class
-fact_bookings.csv	Booking-level transactional data
-fact_aggregated_bookings.csv	Capacity & aggregated bookings
-🔍 Project Workflow
-1️⃣ Data Import & Exploration
+dim_hotels.csv	Hotel names & cities
+dim_rooms.csv	Room category details
+fact_bookings.csv	Individual booking records
+fact_aggregated_bookings.csv	Capacity & total bookings
+🧩 Step-by-Step Project Explanation
+🔹 Step 1: Data Import & Exploration
 
-Loaded datasets using Pandas
+Goal: Understand what data looks like before analysis
 
-Explored schema, shape, and distributions
+✔ Loaded all CSV files using Pandas
+✔ Checked shape, columns, data types
+✔ Explored:
 
-Analyzed booking platforms, room types & cities
+Booking platforms
 
-2️⃣ Data Cleaning
+Room categories
 
-❌ Removed invalid guest records
+City distribution
 
-📉 Handled outliers using statistical thresholds
+📌 This step helps identify data quality issues early.
 
-🧩 Treated missing values using median where applicable
+🔹 Step 2: Data Cleaning
 
-🚫 Filtered bookings exceeding capacity
+Goal: Remove incorrect and misleading data
 
-3️⃣ Data Transformation
+✔ Removed bookings with invalid guest count
+✔ Detected and handled revenue outliers
+✔ Filled missing values using median where appropriate
+✔ Removed records where bookings exceeded capacity
 
-🧮 Created occupancy percentage (occ_pct)
+📌 Clean data = reliable insights
 
-🔗 Merged multiple datasets
+🔹 Step 3: Data Transformation
 
-📆 Converted date columns for time-series analysis
+Goal: Create useful business metrics
 
-4️⃣ Insights Generation
+✔ Created Occupancy Percentage (occ_pct)
+✔ Merged booking, hotel, room, and date datasets
+✔ Converted date columns for time-based analysis
 
-📊 Average occupancy by room category
+📌 This step prepares data for analysis.
 
-🏙️ City-wise occupancy performance
+🔹 Step 4: Business Insights Generation
 
-📅 Weekday vs weekend comparison
+Questions Answered:
 
-💰 Monthly & city-level revenue trends
+✔ What is the average occupancy by room category?
+✔ Which cities have the highest occupancy?
+✔ Do weekends perform better than weekdays?
+✔ How does revenue change month-by-month?
+✔ Which booking platforms generate the most revenue?
 
-🌐 Revenue contribution by booking platform
+📌 This is where raw data becomes business value.
 
-📊 Key Insights
+📊 Key Insights (Simple & Clear)
 
-✨ Certain cities consistently show higher occupancy rates
-✨ Weekends outperform weekdays in occupancy
-✨ Premium room categories generate higher revenue
-✨ Few booking platforms contribute most of the revenue
+✔ Weekends show higher occupancy than weekdays
+✔ Premium room categories generate more revenue
+✔ Certain cities consistently outperform others
+✔ A small number of booking platforms contribute most revenue
 
-📈 Visualizations
+📈 Visualizations Included
 
-📌 (Screenshots recommended — add inside /images folder)
+✔ Bar charts for occupancy comparison
+✔ Pie chart for revenue by booking platform
+✔ Trend charts for monthly revenue
 
-📊 Bar charts → Occupancy & revenue comparison
-
-🥧 Pie chart → Revenue share by booking platform
-
-📈 Trend charts → Monthly & city-wise performancetie
+📌 (Visuals make insights easy to understand for non-technical stakeholders.)
