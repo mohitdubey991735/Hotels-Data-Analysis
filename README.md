@@ -115,7 +115,7 @@ This pie chart shows how different booking platforms contribute to total revenue
 ### 📈 Bookings Data Overview
 This chart provides an overview of booking trends from the dataset.
 
-![Bookings Data Overview](img/bookings%20data%20in%20a%20datagram.png)
+![Bookings Data Overview](img/bookings_data_in_a_datagrame.png)
 
 
 ## How to Run the Project
