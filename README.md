@@ -99,7 +99,7 @@ The project includes multiple visualizations to clearly communicate insights:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/AtliQ-Hotels-Data-Analysis.git
+git clone https://github.com/mohitdubey991735/AtliQ-Hotels-Data-Analysis.git
 
 # Install required libraries
 pip install pandas matplotlib
